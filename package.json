@@ -1,0 +1,36 @@
+{
+  "name": "vscdl",
+  "version": "1.1.1",
+  "description": "Download source code from vercel deployment",
+  "keywords": [
+    "vercel",
+    "source",
+    "fetcher"
+  ],
+  "homepage": "https://getsource.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdwz/vscdl.git"
+  },
+  "license": "MIT",
+  "author": "Marc Redwerkz",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "bin": {
+    "vscdl": "src/index.mjs"
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.7",
+    "got": "^14.4.5",
+    "ora": "^8.1.1",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "standard": "latest"
+  },
+  "volta": {
+    "node": "18.20.5"
+  }
+}
